@@ -1,0 +1,7 @@
+Configurações do MoodleMat:
+1) Criar pasta "anosemestre" no formato "YYYY0Z", onde Z = 1 ou 2, na pasta "/moodledata"
+1) Para reativar o tema logue como "admin" e vá em: "Site administration -> Apperance -> Theme selector"
+
+
+
+2)
