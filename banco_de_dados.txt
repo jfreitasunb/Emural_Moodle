@@ -4,7 +4,7 @@ Procedimentos de atualização do banco de dados
 -> Editar arquivo: /etc/postgresql/9.1/main/pg_hba.conf e trocar a linha 'local all postgres ident' para 'local all postgres trust'
 -> Reiniciar o postgresql
 -> Executar no terminal: psql -U postgres
--> No prompt de comando digite: 'ALTER USER postgres with password ‘new-password';'
+-> No prompt de comando digite: 'ALTER USER postgres with password 'new-password';'
 -> Sair com um '\q'
 -> Editar arquivo: /etc/postgresql/9.1/main/pg_hba.conf e trocar a linha 'local all postgres trust' para 'local all postgres md5'
 -> Reiniciar o postgresql
