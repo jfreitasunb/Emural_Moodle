@@ -1,4 +1,14 @@
 Configurações do MoodleMat:
+1) Home -> My profile settings -> Edit profile
+a) Email address: moodlemat@mat.unb.br
+
+2) Site administration -> Plugins -> Message outputs -> Email 
+a) SMTP hosts: mx1.mat.unb.br
+b) SMTP username: moodlemat
+c) No-reply address: noreply@moodle.mat.unb.br
+
+
+Configurações gerais
 1) Criar pasta "anosemestre" no formato "YYYY0Z", onde Z = 1 ou 2, na pasta "/moodledata"
 1) Para reativar o tema logue como "admin" e vá em: "Site administration -> Appearance -> Theme selector" e clicar em "Clear theme caches".
 
