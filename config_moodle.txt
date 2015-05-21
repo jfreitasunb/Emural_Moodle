@@ -1,3 +1,6 @@
+Instalação do MoodleMat:
+1) pacotes: apt-get install graphviz aspell php5-pspell php5-curl php5-gd php5-intl php5-mysql php5-xmlrpc php5-ldap
+
 Configurações do MoodleMat:
 1) Home -> My profile settings -> Edit profile
 a) Email address: moodlemat@mat.unb.br
