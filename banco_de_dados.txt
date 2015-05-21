@@ -9,5 +9,13 @@ Procedimentos de atualização do banco de dados
 -> Editar arquivo: /etc/postgresql/9.1/main/pg_hba.conf e trocar a linha 'local all postgres trust' para 'local all postgres md5'
 -> Reiniciar o postgresql
 
-2) Restauro de banco de dados:
+2) Criar usuários no postgresql
+-> logar com: 'su postgres'
+-> createuser NOMEUSUARIO -d -E (-d permite o usuário a criar novas DB; -E encripta a senha)
+-> psql
+-> \du (lista os usuários e atributos)
+-> 'ALTER USER USUARIO CREATEDB;' permite ao usuário criar novas DB
+
+
+3) Restauro de banco de dados:
 -> Usar o comando: 'pg_restore -h HOST -U postgres -d DB-destino DB-dump.sql'
