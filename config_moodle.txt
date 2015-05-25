@@ -35,3 +35,8 @@ Configurações gerais
 
 
 2)
+
+Acrescetar no crontab a linha
+*/30 * * * * /usr/bin/php  /var/www/moodle/admin/cli/cron.php >/dev/null
+
+para envio de e-mail.
