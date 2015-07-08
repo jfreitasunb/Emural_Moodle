@@ -75,6 +75,16 @@ Override calculated grades
 mod/workshop:overridegrades
 
 
+8) Site administration -> Plugins -> Filters -> Manage filters
+a) Ativar a opção TeX Notation
+b) Ir em Settings e mudar os caminhos:
+- LaTeX preamble: \usepackage[utf8]{inputenc}
+- Path of latex binary: /usr/bin/latex
+- Path of dvips binary: /usr/bin/dvips
+- Path of convert binary: /usr/bin/convert
+- convert output format: PNG
+
+
 Configurações gerais
 1) Criar pasta "anosemestre" no formato "yyyy0z", onde Z = 1 ou 2, na pasta "/moodledata"
 1) Para reativar o tema logue como "admin" e vá em: "Site administration -> Appearance -> Theme selector" e clicar em "Clear theme caches".
