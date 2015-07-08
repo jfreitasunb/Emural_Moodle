@@ -32,6 +32,49 @@ Nesta página preencha os dados solicitados e informe um endereço de e-mail. Ap
 a) Site administration -> Language -> Language packs: Instalar "Português Brasil"
 b) Site administration -> Language -> Language settings: Default language: "Português Brasil"
 
+7) Criação do papel de Monitor: Site administration -> Users -> Permissions -> Define roles
+a) Short name: Monitor
+b) Custom full name: Estudante(Monitor)
+c) Custom description: Perfil para incluir monitores nos curso.
+d) Filter -> grade e desabilitar as seguintes opções:
+a1) Activity: Assignment
+Grade assignment
+mod/assign:grade
+ Allow
+XSS risk			
+Review and release grades
+mod/assign:managegrades
+ Allow
+Release grades
+mod/assign:releasegrades
+ Allow
+Review grades
+mod/assign:reviewgrades
+ Allow
+Activity: Assignment (2.2)
+Grade assignment
+mod/assignment:grade
+ Allow
+XSS risk			
+Activity: LTI
+View grades returned by the external tool
+mod/lti:grade
+ Allow
+Privacy risk		
+Activity: Quiz
+Grade quizzes manually
+mod/quiz:grade
+ Allow
+Spam risk	
+Regrade quiz attempts
+mod/quiz:regrade
+ Allow
+Spam risk	
+Activity: Workshop
+Override calculated grades
+mod/workshop:overridegrades
+
+
 Configurações gerais
 1) Criar pasta "anosemestre" no formato "yyyy0z", onde Z = 1 ou 2, na pasta "/moodledata"
 1) Para reativar o tema logue como "admin" e vá em: "Site administration -> Appearance -> Theme selector" e clicar em "Clear theme caches".
