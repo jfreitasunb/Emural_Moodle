@@ -91,6 +91,7 @@ a) Desmarcar opção "Include users"
 10) Site administration -> Users -> Permissions -> Define roles: Na aba 'Manage roles'
 a) Editar o papel de professor e desmarcar 'Manual enrolments -> Unenrol users from the course
 
+
 Configurações gerais
 1) Criar pasta "anosemestre" no formato "yyyyz", onde Z = 1 ou 2, na pasta "/moodledata"
 a) Usar pasta 'moodledata-BASE' para criar as demais.
@@ -99,8 +100,39 @@ b) Permissões 777, dono e grupo www-data.
 2) Para reativar o tema logue como "admin" e vá em: "Site administration -> Appearance -> Theme selector" e clicar em "Clear theme caches".
 
 
+3) Para alterar comportamento do 'restore' de cursos:
+a) Acessar arquivo 'moodle/backup/util/ui/renderer.php' e mudar as linhas:
+$html .= $this->backup_detail_input(get_string('restoretocurrentcourseadding', 'backup'), 'radio', 'target', backup::TARGET_CURRENT_ADDING, array('checked'=>'checked'));
+$html .= $this->backup_detail_input(get_string('restoretocurrentcoursedeleting', 'backup'), 'radio', 'target',backup::TARGET_CURRENT_DELETING);
 
-2)
+por
+
+$html .= $this->backup_detail_input(get_string('restoretocurrentcourseadding', 'backup'), 'radio', 'target', backup::TARGET_CURRENT_ADDING);
+            $html .= $this->backup_detail_input(get_string('restoretocurrentcoursedeleting', 'backup'), 'radio', 'target', backup::TARGET_CURRENT_DELETING, array('checked'=>'checked'));
+
+O efeito da mudança acima é colocar como default o restore deletando o curso atual.
+
+
+b) Acessar arquivo 'moodle/backup/moodle2/restore_course_task.class.php' e mudar a linha:
+
+$keep_enrols = new restore_course_generic_setting('keep_roles_and_enrolments', base_setting::IS_BOOLEAN, false);
+
+para
+
+$keep_enrols = new restore_course_generic_setting('keep_roles_and_enrolments', base_setting::IS_BOOLEAN, true);
+
+e a linha
+
+$keep_groups = new restore_course_generic_setting('keep_groups_and_groupings', base_setting::IS_BOOLEAN, false);
+
+para
+
+$keep_groups = new restore_course_generic_setting('keep_groups_and_groupings', base_setting::IS_BOOLEAN, true);
+
+O efeito das mudanças acima é manter os usuários e grupos que já tiverem sido criados pelo E-mural.
+
+
+4)
 
 Acrescetar no crontab a linha
 */30 * * * * /usr/bin/php  /var/www/moodle/admin/cli/cron.php >/dev/null
