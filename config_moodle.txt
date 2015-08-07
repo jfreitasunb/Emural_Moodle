@@ -89,7 +89,8 @@ a) Desmarcar opção "Include users"
 
 
 10) Site administration -> Users -> Permissions -> Define roles: Na aba 'Manage roles'
-a) Editar o papel de professor e desmarcar 'Manual enrolments -> Unenrol users from the course
+a) Editar o papel de professor e desmarcar 'Manual enrolments -> Unenrol users from the course'
+b) Editar o papel de professor e desmarcar 'Unenrol users from the course enrol -> manual:unenrol'
 
 
 Configurações gerais
