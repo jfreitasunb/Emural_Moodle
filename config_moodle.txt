@@ -140,6 +140,31 @@ $keep_groups = new restore_course_generic_setting('keep_groups_and_groupings', b
 
 O efeito das mudanças acima é manter os usuários e grupos que já tiverem sido criados pelo E-mural.
 
+c) Para ocultar as opções sobreescrever usuários e grupos: abrir arquivo 'moodle/backup/moodle2/restore_course_task.class.php'e acrescentar:
+
+c1) Antes da linha
+
+if ($this->get_target() != backup::TARGET_CURRENT_DELETING and $this->get_target() != backup::TARGET_EXISTING_DELETING) {
+
+O código abaixo:
+
+$keep_enrols->set_visibility(backup_setting::HIDDEN);
+
+c2) Antes da linha
+
+if ($this->get_target() != backup::TARGET_CURRENT_DELETING and $this->get_target() != backup::TARGET_EXISTING_DELETING) {
+
+O código abaixo:
+
+$keep_groups->set_visibility(backup_setting::HIDDEN);
+
+c3) Antes da linha:
+
+if ($this->get_target() == backup::TARGET_NEW_COURSE) {
+
+O código abaixo:
+
+$overwrite->set_visibility(backup_setting::HIDDEN);
 
 4)
 
