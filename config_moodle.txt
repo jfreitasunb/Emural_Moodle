@@ -107,6 +107,24 @@ b) Mudar para usuário 'Admin' em 'Course request notification'
 13) Para aprovar ou não a criação de um curso: Site administration -> Courses -> Manage courses and categories
 a) Clicar no link 'Courses pending approval'
 
+14) Criação de role que permitir criar usuários manualmente: Site administration -> Users -> Permissions -> Define roles:
+a) Em 'Manage roles' ir em 'Add a new role'
+b) Em 'Use role or archetype' escolher 'Manager'
+c) Em 'Context types where this role may be assigned' marcar 'System, User, Category, Course'
+d) Em 'Allow role assignments' selecionar Teacher, Estudante(Monitor) e Student
+e) Em 'Allow role overrides' selecionar 'Teacher, Estudante(Monitor) e Student'
+f) Em 'Allow role switches' selecionar 'Teacher, Estudante(Monitor) e Student'
+g) Nas permissões do papel desmarcar tudo com excessão de: View participants, Create users, Configure manual enrol instances, Enrol users, Manage user enrolments, Unenrol users from the course, Manage enrolled users, View hidden courses, View participants.
+						
+Enrol usersenrol/manual:enrol	
+Allow
+						
+Manage user enrolmentsenrol/manual:manage	
+Allow
+						
+Unenrol users from the courseenrol/manual:unenrol
+
+
 Configurações gerais
 1) Criar pasta "anosemestre" no formato "yyyyz", onde Z = 1 ou 2, na pasta "/moodledata"
 a) Usar pasta 'moodledata-BASE' para criar as demais.
