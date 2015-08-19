@@ -12,6 +12,9 @@ a) SMTP hosts: mx1.mat.unb.br
 b) SMTP username: moodlemat
 c) No-reply address: noreply@moodle.mat.unb.br
 
+2) Site administration -> Server -> Support contact
+a) Support email: moodlemat@mat.unb.br
+
 3) Permissões de novos Usuários: Site administration -> Users -> Permissions -> Define roles
 a) Na linha "Teacher" marcar a coluna "Teacher"
 
