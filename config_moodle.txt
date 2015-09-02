@@ -119,6 +119,7 @@ d) Em 'Allow role assignments' selecionar Teacher, Estudante(Monitor) e Student
 e) Em 'Allow role overrides' selecionar 'Teacher, Estudante(Monitor) e Student'
 f) Em 'Allow role switches' selecionar 'Teacher, Estudante(Monitor) e Student'
 g) Nas permissões do papel desmarcar tudo com excessão de: View participants, Create users, Configure manual enrol instances, Enrol users, Manage user enrolments, Unenrol users from the course, Manage enrolled users, View hidden courses, View participants.
+h) Marcar opções: Update user profiles, Edit user profile
 						
 15) Criar usuário 'coadmin' com nome "Co-administrador Ajudante".
 
