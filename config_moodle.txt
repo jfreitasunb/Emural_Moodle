@@ -39,7 +39,7 @@ b) Site administration -> Language -> Language settings: Default language: "Port
 a) Short name: Monitor
 b) Custom full name: Estudante(Monitor)
 c) Custom description: Perfil para incluir monitores nos cursos.
-d) Filter -> grade e desabilitar as seguintes opções:
+d) Em 'Filter' pesquisar por 'grade' e desabilitar as seguintes opções:
 a1) Activity: Assignment
 Grade assignment
 mod/assign:grade
