@@ -20,7 +20,7 @@ a) Na aba 'Allow role assignments' ir na linha "Teacher" marcar a coluna "Teache
 
 4) Configurações da página inicial e título do Moodle: Site administration -> Front page settings -> Edit settings
 a) Full site name: Moodle MAT
-b) Short name for site: Moodle
+b) Short name for site: MoodleMAT
 c) Front page items when logged in: Enrolled courses
 
 5) Página de login: Site administration -> Plugins -> Authentication -> Manage authentication
@@ -38,7 +38,7 @@ b) Site administration -> Language -> Language settings: Default language: "Port
 7) Criação do papel de Monitor: Site administration -> Users -> Permissions -> Define roles
 a) Short name: Monitor
 b) Custom full name: Estudante(Monitor)
-c) Custom description: Perfil para incluir monitores nos curso.
+c) Custom description: Perfil para incluir monitores nos cursos.
 d) Filter -> grade e desabilitar as seguintes opções:
 a1) Activity: Assignment
 Grade assignment
