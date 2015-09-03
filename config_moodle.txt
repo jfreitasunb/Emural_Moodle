@@ -10,13 +10,13 @@ a) Email address: moodlemat@mat.unb.br
 2) Site administration -> Plugins -> Message outputs -> Email 
 a) SMTP hosts: mx1.mat.unb.br
 b) SMTP username: moodlemat
-c) No-reply address: noreply@moodle.mat.unb.br
+c) No-reply address: noreply@mat.unb.br
 
 2) Site administration -> Server -> Support contact
 a) Support email: moodlemat@mat.unb.br
 
 3) Permissões de novos Usuários: Site administration -> Users -> Permissions -> Define roles
-a) Na linha "Teacher" marcar a coluna "Teacher"
+a) Na aba 'Allow role assignments' ir na linha "Teacher" marcar a coluna "Teacher"
 
 4) Configurações da página inicial e título do Moodle: Site administration -> Front page settings -> Edit settings
 a) Full site name: Moodle MAT
