@@ -111,7 +111,8 @@ b) Mudar para usuário 'Admin' em 'Course request notification'
 a) Clicar no link 'Courses pending approval'
 
 14) Criação de role que permitir criar usuários manualmente: Site administration -> Users -> Permissions -> Define roles:
-a0) Role: Co-admin
+a0) Short name: co-admin
+a00) Custom full name: Co-administrador
 a) Em 'Manage roles' ir em 'Add a new role'
 b) Em 'Use role or archetype' escolher 'Manager'
 c) Em 'Context types where this role may be assigned' marcar 'System, User, Category, Course'
@@ -121,7 +122,7 @@ f) Em 'Allow role switches' selecionar 'Teacher, Estudante(Monitor) e Student'
 g) Nas permissões do papel desmarcar tudo com excessão de: View participants, Create users, Configure manual enrol instances, Enrol users, Manage user enrolments, Unenrol users from the course, Manage enrolled users, View hidden courses, View participants.
 h) Marcar opções: Update user profiles, Edit user profile
 						
-15) Criar usuário 'coadmin' com nome "Co-administrador Ajudante".
+15) Criar usuário 'coadmin' com nome "Co-administrador Ajudante" com e-mail falso: 'coadmin@mat.unb.br'.
 
 16) Depois ir em Site administration -> Users -> Permissions -> Assign system roles e colocar na role 'Co-Admin' o usuário 'coadmin'.
 
