@@ -1,0 +1,11 @@
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ["\\(","\\)"] ],
+      displayMath: [ ['$','$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
