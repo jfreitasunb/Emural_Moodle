@@ -200,3 +200,5 @@ Acrescetar no crontab a linha
 */30 * * * * /usr/bin/php  /var/www/moodle/admin/cli/cron.php >/dev/null
 
 para envio de e-mail.
+
+5) Na versão 3.0 do Moodle, deixar vazio o campo 'SMTP username' localizado em "Site administration ->︎ Plugins ->︎ Message outputs ->︎ Email".
