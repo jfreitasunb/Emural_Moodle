@@ -202,3 +202,9 @@ Acrescetar no crontab a linha
 para envio de e-mail.
 
 5) Na versão 3.0 do Moodle, deixar vazio o campo 'SMTP username' localizado em "Site administration ->︎ Plugins ->︎ Message outputs ->︎ Email".
+
+6) Copiar pasta 'emural' em 'plugins' para '/var/www/moodle/auth/'
+
+7) Copiar pasta 'staticpage' em 'plugins' para '/var/www/moodle/local/'
+
+8) Copiar pasta 'staticpage' em 'moodledata-BASE' para '/moodledata/anosemestre/'
