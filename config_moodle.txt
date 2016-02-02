@@ -208,3 +208,21 @@ para envio de e-mail.
 7) Copiar pasta 'staticpage' em 'plugins' para '/var/www/moodle/local/'
 
 8) Copiar pasta 'staticpage' em 'moodledata-BASE' para '/moodledata/anosemestre/'
+
+9) Na configuração do MathJax incluir:
+
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [ ['$$','$$'],["\\[","\\]"] ],
+      processEscapes: true,
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+
+10) Em "Site administration ->︎ Plugins ->︎ Filters ->︎ Manage" destivar o 'Tex Notation'
