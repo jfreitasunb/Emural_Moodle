@@ -15,5 +15,3 @@ Crontab - Emural
 #@hourly /scripts/emural/roda.sh
 @daily /scripts/emural/dumpBases.sh
 #*/15 * * * * /scripts/atualiza_svn.sh
-
-
