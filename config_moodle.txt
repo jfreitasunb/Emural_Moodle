@@ -226,3 +226,5 @@ MathJax.Hub.Config({
 });
 
 10) Em "Site administration ->︎ Plugins ->︎ Filters ->︎ Manage" destivar o 'Tex Notation'
+
+11) Para atualizar o endereço dos arquivos quando mudar o link usar o endereço http://moodle.mat.unb.br/admin/tool/replace/index.php.
