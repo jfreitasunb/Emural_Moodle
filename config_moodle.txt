@@ -229,3 +229,5 @@ MathJax.Hub.Config({
 10) Em "Site administration ->︎ Plugins ->︎ Filters ->︎ Manage" destivar o 'Tex Notation'
 
 11) Para atualizar o endereço dos arquivos quando mudar o link usar o endereço http://moodle.mat.unb.br/admin/tool/replace/index.php.
+
+12) Acessar como 'admin' ir em 'Administration' e clicar em 'Turn editing on'. Após isso editar as configurações de navegação e no campo 'Generate navigation for the following' escolhar 'Categories and courses'.
