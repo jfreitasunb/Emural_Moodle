@@ -9,7 +9,7 @@ a) Email address: moodlemat@mat.unb.br
 
 2) Site administration -> Plugins -> Message outputs -> Email 
 a) SMTP hosts: mx1.mat.unb.br
-b) SMTP username: moodlemat
+b) SMTP username:
 c) No-reply address: noreply@mat.unb.br
 
 2) Site administration -> Server -> Support contact
@@ -96,7 +96,8 @@ a) Editar o papel de professor e desmarcar 'Manual enrolments -> Unenrol users f
 b) Editar o papel de professor e desmarcar 'Unenrol users from the course enrol -> manual:unenrol'
 
 11) Abrir link da senha esquecida em nova janela: Editar arquivo moodle/login/index_form.html e trocar a linha
-<div class="forgetpass"><a href="<?php echo $CFG->wwwemural ?>esqueci_senha?moodle"><?php print_string("forgotten") ?></a></div>
+
+<div class="forgetpass"><a href="forgot_password.php"><?php print_string("forgotten") ?></a></div>
 
 Por
 
