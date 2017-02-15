@@ -28,7 +28,7 @@ a {
 }
 a:hover,
 a:focus {
-		color: #c02424;
+		color: #00923f;
 }
 a:focus {
 		outline: 0;
@@ -549,7 +549,7 @@ h6 {
 .carousel-overlay-content .content-wrap .read-more {
 		font-family: arvoregular, Arial, Helvetica, sans-serif;
 		color: #fff;
-		background: #c02424;
+		background: #00923f;
 		display: inline-block;
 		text-transform: uppercase;
 }
@@ -638,7 +638,7 @@ h6 {
 		display: inline-block;
 }
 #footer .foot-links ul li a:hover {
-		color: #c02424;
+		color: #00923f;
 		text-decoration: none;
 }
 #footer .contact-info {
@@ -703,7 +703,7 @@ h6 {
 		margin-bottom: 0;
 }
 #footer .footer-foot p span {
-		color: #c02424;
+		color: #00923f;
 }
 #footer .footer-foot p a {
 		color: #009fe5;
@@ -755,7 +755,7 @@ h6 {
 		color: #828282;
 }
 .forumpost .row .topic .author a:hover {
-		color: #c02424;
+		color: #00923f;
 }
 .forumpost .content p {
 		line-height: 26px;
@@ -858,7 +858,7 @@ h6 {
 }
 .block .content h3 {
 		font-weight: normal;
-		color: #c02424;
+		color: #00923f;
 		padding-left: 0;
 		text-transform: none;
 }
@@ -869,7 +869,7 @@ h6 {
 		color: #009fe5;
 }
 .block .content a:hover {
-		color: #c02424;
+		color: #00923f;
 }
 .block_navigation .block_tree .type_activity > p.tree_item.branch.hasicon.active_tree_node,
 .block_navigation .block_tree .tree_item {
@@ -1061,7 +1061,7 @@ legend {
 		float: left;
 		font-size: 18px;
 		font-family: arvoregular, Arial, Helvetica, sans-serif;
-		color: #c02424;
+		color: #00923f;
 		padding-bottom: 10px;
 		border-bottom-color: #d6d6d6;
 		margin-bottom: 40px;
@@ -1074,7 +1074,7 @@ legend + * {
 }
 .mform legend a,
 .mform legend a:hover {
-		color: #c02424;
+		color: #00923f;
 }
 .dir-ltr .mform fieldset.collapsible legend a.fheader {
 		margin-left: 0;
@@ -1218,7 +1218,7 @@ input#id_submitbutton,
 input#id_submitbutton2,
 .path-admin .buttons input[type="submit"],
 td.submit input {
-		background: #c02424;
+		background: #00923f;
 		text-shadow: none;
 }
 button:hover, 
@@ -1519,7 +1519,7 @@ td.submit input[disabled] {
 		margin: 0 0 20px;
 }
 .loginbox .loginsub.subcontent input[type="submit"] {
-		background: #c02424;
+		background: #00923f;
 		margin-bottom: 12px;
 }
 .loginbox .loginsub.subcontent input[type="submit"]:hover,
@@ -1683,7 +1683,7 @@ td.submit input[disabled] {
 		font-size: 21px;
 		font-family: arvoregular, Arial, Helvetica, sans-serif;
 		line-height: 27px;
-		color: #c02424;
+		color: #00923f;
 		background-position: left 7px;
 		padding: 0 27px;
 }
@@ -1725,7 +1725,7 @@ td.submit input[disabled] {
 		line-height: 24px;
 }
 .coursebox .content .teachers li a {
-		color: #c02424;
+		color: #00923f;
 }
 .coursebox .content .teachers,
 .coursebox .content .courseimage,
@@ -1913,7 +1913,7 @@ table.generaltable.groupmanagementtable td {
 table tbody tr th,
 table.flexible tbody tr th,
 .generaltable tbody tr th {
-		color: #c02424;
+		color: #00923f;
 }
 table#explaincaps tbody > tr:nth-child(2n+1) > td,
 table#defineroletable tbody > tr:nth-child(2n+1) > td,
@@ -2108,7 +2108,7 @@ table#permissions tbody tr:hover > th {
 		background: #fff;
 }
 #adminsettings h3 {
-		color: #c02424;
+		color: #00923f;
 		padding-bottom: 10px;
 		border-bottom-color: #d6d6d6;
 		margin-bottom: 40px;
@@ -2148,7 +2148,7 @@ table#permissions tbody tr:hover > th {
 		text-align: center;
 }
 .fp-coursebox .fp-courseinfo h5 a {
-		color: #c02424;
+		color: #00923f;
 }
 .fp-coursebox .readmore {
 		padding: 5px 0 11px;
