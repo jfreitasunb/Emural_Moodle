@@ -233,3 +233,5 @@ MathJax.Hub.Config({
 12) Acessar como 'admin' ir em 'Administration' e clicar em 'Turn editing on'. Após isso editar as configurações de navegação e no campo 'Generate navigation for the following' escolhar 'Categories and courses'.
 
 13) Ir em 'Frontpage settings' e trocar 'Front page' para 'List of categories'.
+
+14) Ao atualizar o tema KLASS ir em 'theme/klass/scss/preset/theme.scss' e trocar o valor da variável $color_thunderbird_approx para $color_thunderbird_approx: #00923f;
