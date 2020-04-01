@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #00923f;
+}
+a:hover {
+    color: #00923f;
+}
+a:focus {
+    color: #00923f;
+}
+.dir-rtl .breadcrumb > li a {
+    color: #00923f;
+}
+.dir-ltr .breadcrumb > li a {
+    color: #00923f;
+}
+#footer .foot-links ul li a:hover {
+    color: #00923f;
+}
+#footer .footer-foot p span {
+    color: #00923f;
+}
+.forumpost .row .topic .author a:hover {
+    color: #00923f;
+}
+.block .header h2 {
+    color: #00923f;
+}
+.block .content h3 {
+    color: #00923f;
+}
+.block .content a:hover {
+    color: #00923f;
+}
+.breadcrumb > li > a:focus {
+    color: #00923f;
+}
+legend {
+    color: #00923f;
+}
+.mform legend a {
+    color: #00923f;
+}
+.mform legend a:hover {
+    color: #00923f;
+}
+input.form-submit {
+    background: #00923f;
+}
+input#id_submitbutton {
+    background: #00923f;
+}
+input#id_submitbutton2 {
+    background: #00923f;
+}
+table.flexible tbody tr th {
+    color: #00923f;
+}
+table tbody tr th {
+    color: #00923f;
+}
+.loginbox .loginsub.subcontent input[type="submit"] {
+    background: #00923f;
+}
+.coursebox .content .teachers li a {
+    color: #00923f;
+}
+.coursebox > .info > .coursename a {
+    color: #00923f;
+}
+.generaltable tbody tr th {
+    color: #00923f;
+}
+.fp-coursebox .fp-courseinfo h5 a {
+    color: #00923f;
+}
+#loginbtn {
+    background: #00923f;
+    border-color: #00923f;
+}
+.carousel-overlay-content .content-wrap .read-more {
+    background: #00923f;
+}
+.path-admin .buttons input[type="submit"] {
+    background: #00923f;
+}
+td.submit input {
+    background: #00923f;
+}
+#adminsettings h3 {
+    color: #00923f;
+}
+#site-news-forum .forum-post-container .forumpost .body-content-container .content-alignment-container .post-actions a.btn:hover {
+    color: #00923f;
+}
+.pagelayout-frontpage #coursesearch .coursesearchbox label {
+    color: #00923f;
+}
+.page-context-header .header-button-group a:focus {
+    color: #00923f;
+}
+.card-header.text-center{
+    background: #409FE5;
+}
