@@ -7,7 +7,7 @@ a) Email address: moodlemat@mat.unb.br
 
 2) Mudar senha do admin: My profile settings -> Change password
 
-2) Site administration -> Plugins -> Message outputs -> Email 
+2) Site administration -> Plugins -> Message outputs -> Email
 a) SMTP hosts: mx1.mat.unb.br
 b) SMTP username:
 c) No-reply address: noreply@mat.unb.br
@@ -44,7 +44,7 @@ a1) Activity: Assignment
 Grade assignment
 mod/assign:grade
  Allow
-XSS risk			
+XSS risk
 Review and release grades
 mod/assign:managegrades
  Allow
@@ -58,21 +58,21 @@ Activity: Assignment (2.2)
 Grade assignment
 mod/assignment:grade
  Allow
-XSS risk			
+XSS risk
 Activity: LTI
 View grades returned by the external tool
 mod/lti:grade
  Allow
-Privacy risk		
+Privacy risk
 Activity: Quiz
 Grade quizzes manually
 mod/quiz:grade
  Allow
-Spam risk	
+Spam risk
 Regrade quiz attempts
 mod/quiz:regrade
  Allow
-Spam risk	
+Spam risk
 Activity: Workshop
 Override calculated grades
 mod/workshop:overridegrades
@@ -122,7 +122,7 @@ e) Em 'Allow role overrides' selecionar 'Teacher, Estudante(Monitor) e Student'
 f) Em 'Allow role switches' selecionar 'Teacher, Estudante(Monitor) e Student'
 g) Nas permissões do papel desmarcar tudo com excessão de: View participants, Create users, Configure manual enrol instances, Enrol users, Manage user enrolments, Unenrol users from the course, Manage enrolled users, View hidden courses, View participants.
 h) Marcar opções: Update user profiles, Edit user profile
-						
+
 15) Criar usuário 'coadmin' com nome "Co-administrador Ajudante" com e-mail falso: 'coadmin@mat.unb.br'.
 
 16) Depois ir em Site administration -> Users -> Permissions -> Assign system roles e colocar na role 'Co-Admin' o usuário 'coadmin'.
@@ -235,3 +235,9 @@ MathJax.Hub.Config({
 13) Ir em 'Frontpage settings' e trocar 'Front page' para 'List of categories'.
 
 14) Ao atualizar o tema KLASS ir em 'theme/klass/scss/preset/theme.scss' e trocar o valor da variável $color_thunderbird_approx para $color_thunderbird_approx: #00923f;
+
+15) Após a instalação do Stack verificar a página https://docs.stack-assessment.org/en/Installation/Testing_installation/ para testar a instalação.
+
+16) O path para ser usado no maxima é sempre "/moodledata/anosemestre/stack".
+
+17) Após isso mudar, nas configurações do STACK, a plataforma para "Linux (optimised)", Maxima version para "default" e Optimised Maxima command para "/moodledata/anosemestre/stack/maxima-optimised  -eval '(cl-user::run)'"
