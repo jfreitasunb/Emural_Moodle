@@ -236,8 +236,12 @@ MathJax.Hub.Config({
 
 14) Ao atualizar o tema KLASS ir em 'theme/klass/scss/preset/theme.scss' e trocar o valor da variável $color_thunderbird_approx para $color_thunderbird_approx: #00923f;
 
-15) Após a instalação do Stack verificar a página https://docs.stack-assessment.org/en/Installation/Testing_installation/ para testar a instalação.
+15) Para o STACK, reinstalar seguinte os passos aqui: https://docs.stack-assessment.org/en/Installation/
+
+16) Após, seguir os passos em https://moodle.mat.unb.br/20212/question/type/stack/doc/doc.php/CAS/Optimising_Maxima.md, na sessão "GCL", lembrando de primeiro executar o script de checagem usando como padrão 'Linux' e com o campo "Optimised Maxima command" em branco.
+
+17) Após a instalação do Stack verificar a página https://docs.stack-assessment.org/en/Installation/Testing_installation/ para testar a instalação.
 
 16) O path para ser usado no maxima é sempre "/moodledata/anosemestre/stack".
 
-17) Após isso mudar, nas configurações do STACK, a plataforma para "Linux (optimised)", Maxima version para "default" e Optimised Maxima command para "/moodledata/anosemestre/stack/maxima-optimised  -eval '(cl-user::run)'"
+19) Após isso mudar, nas configurações do STACK, a plataforma para "Linux (optimised)", Maxima version para "default" e Optimised Maxima command para "/moodledata/anosemestre/stack/maxima-optimised  -eval '(cl-user::run)'"
