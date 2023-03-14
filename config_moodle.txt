@@ -245,3 +245,39 @@ MathJax.Hub.Config({
 16) O path para ser usado no maxima é sempre "/moodledata/anosemestre/stack".
 
 19) Após isso mudar, nas configurações do STACK, a plataforma para "Linux (optimised)", Maxima version para "default" e Optimised Maxima command para "/moodledata/anosemestre/stack/maxima-optimised  -eval '(cl-user::run)'"
+
+20) Copiar pasta 'reminders' em 'local' para '/var/www/moodle/local/'
+
+21) Copiar pasta 'userenrols' em 'local' para '/var/www/moodle/local/'
+
+22) Copiar pasta 'klass' em 'theme' para '/var/www/moodle/theme/'
+
+23) Copiar pasta 'attendance' em 'mod' para '/var/www/moodle/mod/'
+
+24) Copiar pasta 'hvp' em 'mod' para '/var/www/moodle/mod/'
+
+25) Copiar pasta 'ipaddress' em 'mod/quizz/accessrule' para '/var/www/moodle/mod/quizz/accessrule'
+
+26) Copiar pasta 'ipaddresslist' em 'mod/quizz/accessrule' para '/var/www/moodle/mod/quizz/accessrule'
+
+27) Copiar pasta 'onesession' em 'mod/quizz/accessrule' para '/var/www/moodle/mod/quizz/accessrule'
+
+28) Copiar pasta 'ddmatch' em 'question/type' para '/var/www/moodle/question/type'
+
+29) Copiar pasta 'gapfill' em 'question/type' para '/var/www/moodle/question/type'
+
+30) Copiar pasta 'shortmath' em 'question/type' para '/var/www/moodle/question/type'
+
+31) Copiar pasta 'stack' em 'question/type' para '/var/www/moodle/question/type'
+
+32) Copiar pasta 'varnumeric' em 'question/type' para '/var/www/moodle/question/type'
+
+33) Copiar pasta 'varnumericset' em 'question/type' para '/var/www/moodle/question/type'
+
+34) Copiar pasta 'adaptivemultipart' em 'question/behaviour' em 'question/type' para '/var/www/moodle/question/behaviour'
+
+35) Copiar pasta 'dfcbmexplicitvaildate' em 'question/behaviour' para '/var/www/moodle/question/behaviour'
+
+36) Copiar pasta 'dfexplicitvaildate' em 'question/behaviour' para '/var/www/moodle/question/behaviour'
+
+37) Copiar pasta 'dfexplicitvaildate' em 'question/format' para '/var/www/moodle/question/format'
