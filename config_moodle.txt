@@ -280,4 +280,4 @@ MathJax.Hub.Config({
 
 36) Copiar pasta 'dfexplicitvaildate' em 'question/behaviour' para '/var/www/moodle/question/behaviour'
 
-37) Copiar pasta 'dfexplicitvaildate' em 'question/format' para '/var/www/moodle/question/format'
+37) Copiar pasta 'examview' em 'question/format' para '/var/www/moodle/question/format'
